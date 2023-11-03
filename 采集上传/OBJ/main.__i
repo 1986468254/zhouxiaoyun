@@ -1,0 +1,7 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\CORE -I..\USER -I..\SYSTEM\usart -I..\HARDWARE\ADC -I..\SYSTEM\time
+-I D:\心电\采集上传V2\采集上传V2\USER\RTE
+-I D:\keil\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0
+-I D:\keil\ARM\CMSIS\Include
+-I D:\keil\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d "main.c"
